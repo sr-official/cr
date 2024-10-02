@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pciu, cr list, pciu cr contact">
+    <meta name="description" content="Explore the contact details of class representatives from all departments at PCIU. Stay connected with CRs for updates and coordination within the university."/>
+    <meta name="author" content="MD Saydur Rahman, saydur.dev@gmail.com">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="PCIU CRs' Information" />
+    <meta property="og:description" content="Find and connect with the class representatives from various departments at PCIU." />
+    <meta property="og:image" content="../images/PCIU-LOGO.png" />
+    <meta property="og:url" content="https://sr-official.github.io/cr/"/> 
+    <meta property="og:type" content="website" />
+
+    <title>Consultation Form</title>
+    <link rel="stylesheet" href="consult.css">
+    <!-- favicon -->
+    <link rel="icon" href="../images/PCIU-LOGO.png" type="image/png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeSwitch">
+        <label for="darkModeSwitch"></label>
+    </div>
+
+    <div class="form-container">
+        <h2>Consultation Form</h2>
+        <p class="note">Your ID will remain hidden and is only required for student verification.</p>
+        <form id="consultationForm" action="https://formspree.io/f/xrgwzrpz" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Full Name">
+            </div>
+            
+            <!-- Department and Batch Side by Side -->
+            <div class="flex-container">
+                <div class="form-group half">
+                    <label for="department">Department</label>
+                    <input type="text" id="department" name="department" required placeholder="BBA">
+                </div>
+                <div class="form-group half">
+                    <label for="batch">Batch</label>
+                    <input type="text" id="batch" name="batch" required placeholder="32">
+                </div>
+            </div>
+            
+            <!-- Section and Student ID Side by Side -->
+            <div class="flex-container">
+                <div class="form-group half">
+                    <label for="section">Section</label>
+                    <input type="text" id="section" name="section" required placeholder="B">
+                </div>
+                <div class="form-group half">
+                    <label for="id">Student ID</label>
+                    <input type="text" id="id" name="id" required placeholder="BBA 032 09146">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Contact (Number or Email)</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Write down your message...."></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="consult.js"></script>
+</body>
+</html>
