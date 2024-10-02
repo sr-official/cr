@@ -216,7 +216,7 @@ crManager.addCR(new CR("Sidratul Muntaha", "BBA", "32", "B", "Day", "-"));
 crManager.addCR(new CR("Pranti Barua", "BBA", "32","C", "Day", "-"));
 crManager.addCR(new CR("Md Mahmudul Islam Rakib", "BBA", "32", "D", "Day", "01753-698891"));
 crManager.addCR(new CR("Ritu Sikder", "BBA", "32","D", "Day", "-"));
-crManager.addCR(new CR("Asma karim", "BBA", "32", "E", "Day", "-"));
+crManager.addCR(new CR("Tazkea Afrin", "BBA", "32", "E", "Day", "-"));
 crManager.addCR(new CR("Md Ismail Hossen", "BBA", "32", "E", "Day", "01944-405929"));
 crManager.addCR(new CR("Anas Bin Jaber", "BBA", "33","A", "Day", "01603-661520"));
 crManager.addCR(new CR("Jannatul Fahmida", "BBA", "33", "C", "Day", "-"));
