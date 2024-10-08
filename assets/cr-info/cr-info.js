@@ -168,13 +168,19 @@ if (localStorage.getItem('theme') === 'dark') {
 }
 
 // bba CR's data
+crManager.addCR(new CR("-","BBA","-", "A", "Day", "-"));
 crManager.addCR(new CR("Md. Asik Uddin Dihan","BBA","15", "B", "Day", "01741-010001"));
+crManager.addCR(new CR("-","BBA","-", "C", "Day", "-"));
+crManager.addCR(new CR("-","BBA","-", "D", "Day", "-"));
+crManager.addCR(new CR("-","BBA","-", "E", "Day", "-"));
 crManager.addCR(new CR("Shah Md Intisar Hoque","BBA", "17", "-", "Day", "01783-943276"));
 crManager.addCR(new CR("Bhuiyan Niloy","BBA", "20", "-", "Day", "01626-164026"));
 crManager.addCR(new CR("Mehedi Hasan", "BBA", "21", "B", "Day", "01710-268871"));
 crManager.addCR(new CR("Imran Ahmed", "BBA", "22", "A", "Day", "01610-051205"));
+crManager.addCR(new CR("-", "BBA", "23", "-", "Day", "-"));
 crManager.addCR(new CR("Zannatul Nayma Neha ","BBA", "24", "A", "Day", "-"));
 crManager.addCR(new CR("Mohammad Kaderul Munir", "BBA", "24", "-", "Day", "01874-920462"));
+crManager.addCR(new CR("-", "BBA", "25", "-", "Day", "-"));
 crManager.addCR(new CR("Taher juzar hussain", "BBA", "26", "A", "Day", "01833-709590"));
 crManager.addCR(new CR("Anamul Haque Khan Fahim", "BBA", "26", "B", "Day", "01840-122638"));
 crManager.addCR(new CR("Artika Azim Urbi", "BBA", "26", "-", "Day", "-"));
