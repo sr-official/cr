@@ -367,8 +367,8 @@ crManager.addCR(new CR("Abu Rafey Mohammad Mobasshir","EEE", "33", "-", "-", "01
 // jrn CR's data
 crManager.addCR(new CR("Jannatul Hosna","JRN", "24", "-", "-", "-"));
 crManager.addCR(new CR("Mohammad Ashraf Hossain", "JRN", "24", "-", "-", "01704-568378"));
+crManager.addCR(new CR("Sahedul Islam Sakib", "JRN", "25", "-", "-", "01628-749382"));
 crManager.addCR(new CR("Ariful Islam Tamim", "JRN", "27", "-", "-", "01533-140614"));
-crManager.addCR(new CR("Sahedul Islam Sakib", "JRN", "27", "-", "-", "01628-749382"));
 crManager.addCR(new CR("Safunatun Jahan", "JRN", "29", "-", "-", "-"));
 crManager.addCR(new CR("Shirajum Munira Tusmeha", "JRN", "31", "-", "-", "-"));
 crManager.addCR(new CR("Md Shoriful Bari Sanif ", "JRN", "31", "-", "-", "01824-617639"));
