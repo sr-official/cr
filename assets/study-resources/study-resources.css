@@ -3,6 +3,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a{
+	color: #000;
 }
 
 body {
@@ -42,6 +47,10 @@ body {
 body.dark-mode .dark-mode-toggle label::before {
 	content: "Dark Mode 🌙";
 	cursor: pointer;
+}
+
+body.dark-mode a{
+	color: #fff;
 }
 
 /* Responsive Design */
