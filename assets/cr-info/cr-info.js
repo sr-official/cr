@@ -278,6 +278,7 @@ crManager.addCR(new CR("Miraz Hossen Ibnsina", "CSE", "23", "D", "-", "01869-568
 crManager.addCR(new CR("Bishwajit Aich", "CSE", "24", "A", "Day", "01850-137754"));
 crManager.addCR(new CR("Md. Zillur Rahaman", "CSE", "24", "E", "-", "01861-202373"));
 crManager.addCR(new CR("Shrabon Biswas", "CSE", "26", "A", "Day", "01830-325855"));
+crManager.addCR(new CR("Sadman Mahfuz Rafi", "CSE", "27", "A", "Day", "01516-556513"));
 crManager.addCR(new CR("Sirajul Monir", "CSE", "27", "A", "Day", "01629-028559"));
 crManager.addCR(new CR("Anayet Ullah Misbha", "CSE", "27", "B", "Day", "01881-277194"));
 crManager.addCR(new CR("Md Alamgir Hossain Asif", "CSE", "29", "A", "-", "01630-447382"));
