@@ -27,6 +27,35 @@ body {
 	padding: 0 1rem;
 }
 
+/* temporary code */
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.notice{
+	min-width: 300px;
+	border: 1px solid blue;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+}
+
+body.dark-mode {
+	h2, a{
+		color: #fff;
+	}
+}
+
+/* temporary code */
+
 /* Dark Mode Body */
 body.dark-mode {
 	background-color: var(--dark-bg);
@@ -216,3 +245,5 @@ button:hover {
 			font-size: 0.9rem;
 	}
 }
+
+

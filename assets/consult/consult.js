@@ -54,7 +54,4 @@ document.getElementById("consultationForm").addEventListener("submit", function(
 			console.error('Error:', error);
 	});
 
-	document.getElementById('submitBtn').addEventListener('click',function(event){
-		alert('Thanks! Your record has been recorded.')
-	})
 });
