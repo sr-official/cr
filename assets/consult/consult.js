@@ -1,3 +1,4 @@
+
 //  ----- dark mode js start -----
 // Function to toggle dark mode
 function toggleDarkMode() {
@@ -52,4 +53,8 @@ document.getElementById("consultationForm").addEventListener("submit", function(
 			alert("There was a network error."); // Network error message
 			console.error('Error:', error);
 	});
+
+	document.getElementById('submitBtn').addEventListener('click',function(event){
+		alert('Thanks! Your record has been recorded.')
+	})
 });
