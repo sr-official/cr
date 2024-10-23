@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pciu, cr list, pciu cr contact">
+    <meta name="description" content="Explore the contact details of class representatives from all departments at PCIU. Stay connected with CRs for updates and coordination within the university."/>
+    <meta name="author" content="MD Saydur Rahman, saydur.dev@gmail.com">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="PCIU CRs' Information" />
+    <meta property="og:description" content="Find and connect with the class representatives from various departments at PCIU." />
+    <meta property="og:image" content="../images/PCIU-LOGO.png" />
+    <meta property="og:url" content="https://sr-official.github.io/cr/"/> 
+    <meta property="og:type" content="website" />
+
+
+    <title>Study Resources</title>
+    <link rel="stylesheet" href="study-resources.css">
+    <!-- favicon -->
+    <link rel="icon" href="../images/PCIU-LOGO.png" type="image/png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+			<input type="checkbox" id="darkModeSwitch">
+			<label for="darkModeSwitch"></label>
+	</div>
+    <!-- Header Section with Sorting -->
+    <header>
+        <h1>Study Resources</h1>
+        <div class="filters">
+            <select id="departmentFilter" onchange="filterResources()">
+                <option value="all">All Departments</option>
+                <option value="BBA">BBA</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="LLB">LLB</option>
+                <option value="ENG">ENG</option>
+                <!-- Add more departments as needed -->
+            </select>
+
+            <select id="typeFilter" onchange="filterResources()">
+                <option value="all">All Types</option>
+                <option value="article">Article</option>
+                <option value="book">Book</option>
+                <option value="pdf">PDF</option>
+            </select>
+        </div>
+    </header>
+
+
+    <!-- Resource Cards Container -->
+    <div class="card-container" id="cardContainer">
+        <!-- Cards will be dynamically generated here -->
+    </div>
+
+    <script src="study-resources.js"></script>
+</body>
+</html>

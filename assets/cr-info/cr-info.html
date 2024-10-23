@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pciu, cr list, pciu cr contact">
+    <meta name="description" content="Explore the contact details of class representatives from all departments at PCIU. Stay connected with CRs for updates and coordination within the university."/>
+    <meta name="author" content="MD Saydur Rahman, saydur.dev@gmail.com">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="PCIU CRs' Information" />
+    <meta property="og:description" content="Find and connect with the class representatives from various departments at PCIU." />
+    <meta property="og:image" content="../images/PCIU-LOGO.png" />
+    <meta property="og:url" content="https://sr-official.github.io/cr/"/> 
+    <meta property="og:type" content="website" />
+
+    <title>CR Desk</title>
+    <link rel="stylesheet" href="cr-info.css">
+    <!-- favicon -->
+    <link rel="icon" href="../images/PCIU-LOGO.png" type="image/png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeSwitch">
+        <label for="darkModeSwitch"></label>
+    </div>
+    
+    <header>
+        <div class="header-container">
+            <h1><span id="crCounter">Total CRs: 0</span></h1>
+            <div class="header-right">
+                <button id="theme-toggle" class="theme-button">
+                    <span id="theme-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <button id="downloadPdf" onclick="window.print()" style="margin: 20px;">Download PDF</button>
+
+    <div class="table-container">
+        <div class="filters">
+            <label for="deptFilter">Filter by Department:</label>
+            <select id="deptFilter">
+                <option value="">All</option>
+            </select>
+            <label for="batchFilter">Filter by Batch:</label>
+            <select id="batchFilter">
+                <option value="">All</option>
+            </select>
+            <label for="sectionFilter">Filter by Section:</label>
+            <select id="sectionFilter">
+                <option value="">All</option>
+            </select>
+            <label for="shiftFilter">Filter by Shift:</label>
+            <select id="shiftFilter">
+                <option value="">All</option>
+            </select>
+        </div>
+        <table id="crTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Dept</th>
+                    <th>Batch</th>
+                    <th>Section</th>
+                    <th>Shift</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamic data will be added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="cr-info.js"></script>
+</body>
+</html>
