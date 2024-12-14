@@ -304,7 +304,7 @@ crManager.addCR(new CR("Al Hasan", "CSE", "32", "C", "-", "01914-444847"));
 crManager.addCR(new CR("Farhana Akter", "CSE", "32", "-", "-", ""));
 crManager.addCR(new CR("Sawda Akter Sinthia", "CSE", "33", "A", "Day", ""));
 crManager.addCR(new CR("Arpita Das", "CSE", "33", "A", "Day", ""));
-crManager.addCR(new CR("Muntasherul Alam", "CSE", "33", "-", "Eve", "01887-737112"));
+crManager.addCR(new CR("Fares Alvi", "CSE", "33", "-", "Eve", "01640-412461"));
 crManager.addCR(new CR("Md Jahedul Alam", "CSE", "33", "C", "Day", "01911-841155"));
 crManager.addCR(new CR("Jannatul Jahan Ananna", "CSE", "33", "C", "Day", ""));
 
