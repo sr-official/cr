@@ -117,25 +117,23 @@ body.dark-mode {
 	input::placeholder {
 		color: #0c0101e0;
 	}
-	.form-container {
-		border: 1px solid #ffffffa0;
-	}
 } 
 
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	display: flex;
+	flex-wrap: wrap;
 	gap: 20px;
 	padding: 20px;
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .card {
+	flex: 1 1 calc(33.33% - 20px); /* Default: 3 cards per row */
 	border: 1px solid #ddd;
 	border-radius: 10px;
-	padding: 20px 80px;
+	padding: 20px;
 	text-align: center;
 	background-color: #f9f9f9;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -153,4 +151,17 @@ body.dark-mode {
 	color: #333;
 	font-weight: bold;
 	display: block;
+}
+
+/* Responsive rules */
+@media (max-width: 996px) {
+	.card {
+			flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+	}
+}
+
+@media (max-width: 768px) {
+	.card {
+			flex: 1 1 100%; /* 1 card per row */
+	}
 }
