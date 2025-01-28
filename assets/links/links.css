@@ -68,13 +68,6 @@ body.dark-mode header {
 	color: var(--dark-fg);
 }
 
-/* Container and Section Styles */
-.container {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	padding: 2rem;
-}
 
 /* Dark Mode Toggle */
 .dark-mode-toggle {
@@ -155,12 +148,18 @@ body.dark-mode {
 
 /* Responsive rules */
 @media (max-width: 996px) {
+	.grid{
+		margin-top: 150px;
+	}
 	.card {
 			flex: 1 1 calc(50% - 20px); /* 2 cards per row */
 	}
 }
 
 @media (max-width: 768px) {
+	.grid{
+		margin-top: 150px;
+	}
 	.card {
 			flex: 1 1 100%; /* 1 card per row */
 	}
