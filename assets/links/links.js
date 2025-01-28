@@ -41,6 +41,7 @@ const data = [
 		{ text: 'PCIU Civil Forum', url: 'https://www.facebook.com/groups/178717602310691/user/100083964973198/' },
 		{ text: 'PCIU Computer Club', url: 'https://www.facebook.com/groups/178717602310691/user/100092263279944/' },
 		{ text: 'PCIU EEE Club', url: 'https://www.facebook.com/groups/178717602310691/user/61557189404115/' },
+		{ text: 'IEEE PCIU Student Branch', url: 'https://www.facebook.com/groups/845533542452997'},
 		{ text: 'PCIU Textile Club', url: 'https://www.facebook.com/groups/178717602310691/user/61557189404115/' },
 ];
 

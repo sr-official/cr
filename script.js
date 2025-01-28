@@ -39,6 +39,10 @@ document.getElementById('resources').addEventListener('click', function() {
 	window.location.href = 'assets/study-resources/study-resources.html'; // Link to the new resources page
 });
 
+document.getElementById('teachers_contribution').addEventListener('click', function() {
+	window.location.href = 'assets/teachers/teachers.html'; // Link to the new resources page
+});
+
 document.getElementById('contact').addEventListener('click', function() {
 	window.location.href = 'assets/contact/contact.html'; // Link to the new admin profile page
 });

@@ -109,28 +109,28 @@ const resources = [
 			title: "Introductory Circuit Analysis | 11th Ed. <br> Robert L. Boylestad",
 			department: "EEE",
 			type: "book",
-			author: `<a href="https://www.facebook.com/mdrakibulislam.rony.378" target="_blank">MD Rakibul Islam Rony</a>`,
+			author: `<a href="#" target="">PCIU EEE Club</a>`,
 			url: "https://drive.google.com/file/d/1t1wCyj7elg-fcG-s99jF6yb5jTuYhLpc/view?usp=drive_link"
 	},
 	{
 			title: "Fundamentals of Electric Circuits | 6th Ed. <br> Alexander & Sadiku",
 			department: "EEE",
 			type: "book",
-			author: `<a href="https://www.facebook.com/mdrakibulislam.rony.378" target="_blank">MD Rakibul Islam Rony</a>`,
+			author: `<a href="#" target="">PCIU EEE Club</a>`,
 			url: "https://drive.google.com/file/d/1czCnx5FFrg5gId2cq7OL5RH_DUBzU16W/view?usp=drive_link"
 	},
 	{
 			title: "Electronic Devices & Circuit Theory | 11th Ed. <br> Boylestad & Nashelsky",
 			department: "EEE",
 			type: "book",
-			author: `<a href="https://www.facebook.com/mdrakibulislam.rony.378" target="_blank">MD Rakibul Islam Rony</a>`,
+			author: `<a href="#" target="">PCIU EEE Club</a>`,
 			url: "https://drive.google.com/file/d/1Bkx-rCzSInYToHDMl9KOU-d4hMLkVItR/view?usp=drive_link"
 	},
 	{
 			title: "Digital Signal Processing | 2nd Ed. <br> McClellan, Schafer & Yoder",
 			department: "EEE",
 			type: "book",
-			author: `<a href="https://www.facebook.com/mdrakibulislam.rony.378" target="_blank">MD Rakibul Islam Rony</a>`,
+			author: `<a href="#" target="">PCIU EEE Club</a>`,
 			url: "https://drive.google.com/file/d/1cHlA20g7y1bpGicURpV9yxtu4ZTXanpq/view?usp=drive_link"
 	},
 	{
@@ -181,6 +181,13 @@ const resources = [
 			type: "book",
 			author: `<a href="https://www.facebook.com/saydurctg.bd" target="_blank">MD Saydur Rahman</a>`,
 			url: "https://drive.google.com/file/d/13FhdlV_LGeHP5xg7PxOyCAb4aHFdAGEH/view?usp=drive_link"
+	},
+	{
+			title: "Electrical Technology | Volum II <br> TheRaja",
+			department: "EEE",
+			type: "book",
+			author: `<a href="#" target="">PCIU EEE Club</a>`,
+			url: "https://drive.google.com/file/d/1YKHaZiptUMSDgYxK7zXGmGiBL1-2klNo/view?usp=drive_link"
 	},
 ];
 
