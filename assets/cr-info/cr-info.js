@@ -325,6 +325,7 @@ crManager.addCR(new CR("Hosne Ara Begum", "CSE", "33", "C", "Day", ""));
 crManager.addCR(new CR("Najmul Islam", "CSE", "34", "A", "Day", "01888-729453"));
 crManager.addCR(new CR("Mazharul Islam", "CSE", "34", "A1", "-", "01602-838790"));
 crManager.addCR(new CR("Mijanur Rahman", "CSE", "34", "A2", "-", "01690-177204"));
+crManager.addCR(new CR("Mohammad Sagor Sarkar", "CSE", "34", "B1", "-", "01767-143126"));
 crManager.addCR(new CR("Afruza Akter Nisha", "CSE", "34", "B2", "-", ""));
 
 
