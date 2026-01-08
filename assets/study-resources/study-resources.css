@@ -1,0 +1,192 @@
+/* Basic reset and general styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a{
+	color: #000;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #FDFEE7;
+	color: #333;
+}
+
+.dark-mode {
+	background-color: #333;
+	color: #f5f5f5;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #007bff;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	z-index: 1000;
+}
+
+.dark-mode-toggle input[type="checkbox"]{
+	display: none;
+}
+
+.dark-mode-toggle label::before {
+	content: "Light Mode 🌞";
+	cursor: pointer;
+}
+
+
+body.dark-mode .dark-mode-toggle label::before {
+	content: "Dark Mode 🌙";
+	cursor: pointer;
+}
+
+body.dark-mode a{
+	color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+	.container {
+			flex-direction: column;
+			align-items: center;
+	}
+	.dark-mode-toggle{
+		top: 10px;
+	}
+	.dark-mode-toggle label::before {
+		content: "🌞";
+	}
+	
+	body.dark-mode .dark-mode-toggle label::before {
+		content: "🌙";
+	}
+	header{
+		margin-top: 20px;
+	}
+	.section {
+			width: 90%;
+	}
+}
+
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+header h1{
+	margin-bottom: 10px;
+}
+
+select {
+	padding: 8px 10px;
+	border-radius: 5px;
+	border: 1.5px solid #007bff3e;
+	outline: none;
+	transition: border-color 0.3s;
+}
+
+.dark-mode select {
+	background-color: #333;
+	color: #fff;
+}
+
+select:focus {
+	border-color: #007BFF;
+}
+
+.filters {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.filters select {
+	margin: 0 10px;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	transition: transform 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.dark-mode .card {
+	background-color: #444;
+}
+
+h3 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #007BFF;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+
+.dark-mode .btn {
+	background-color: #28a745;
+}
+
+.dark-mode .btn:hover {
+	background-color: #218838;
+}
+
+/* Dark mode switch styles */
+#darkModeSwitch {
+	display: none;
+}
+
+#darkModeSwitch button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+#darkModeSwitch button:hover {
+	background-color: #555;
+}
+
+

@@ -1,0 +1,166 @@
+
+/* Global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--light-bg: #FDFEE7;
+	--light-fg: #333;
+	--dark-bg: #121212;
+	--dark-fg: #120101d6;
+	--section-bg-light: #ffffff;
+	--section-bg-dark: #1e1e1e;
+	--section-hover-light: #ececec;
+	--section-hover-dark: #333;
+	--transition-duration: 0.3s;
+}
+
+/* Body Light Mode */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: var(--light-bg);
+	color: var(--light-fg);
+	transition: background-color var(--transition-duration), color var(--transition-duration);
+	scroll-behavior: smooth;
+	padding: 0 1rem;
+}
+
+/* temporary code */
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.notice{
+	min-width: 300px;
+	border: 1px solid blue;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+}
+
+body.dark-mode {
+	h2, a{
+		color: #fff;
+	}
+}
+
+/* temporary code */
+
+/* Dark Mode Body */
+body.dark-mode {
+	background-color: var(--dark-bg);
+	color: var(--dark-fg);
+}
+
+/* Dark Mode Header */
+body.dark-mode header {
+	background-color: var(--dark-bg);
+	color: var(--dark-fg);
+}
+
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #007bff;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	z-index: 1000;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+	display: none;
+}
+
+.dark-mode-toggle label {
+	cursor: pointer;
+	margin: 0;
+}
+
+.dark-mode-toggle label::before {
+	content: "Light Mode 🌞";
+}
+
+body.dark-mode .dark-mode-toggle label::before {
+	content: "Dark Mode 🌙";
+}
+
+body.dark-mode {
+	p {
+		color: rgba(254, 251, 255, 0.84);
+	}
+	input, textarea {
+		background: #ffffffb6;
+		color: #000;
+	}
+	input::placeholder {
+		color: #0c0101e0;
+	}
+} 
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.card {
+	flex: 1 1 calc(33.33% - 20px); /* Default: 3 cards per row */
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s, box-shadow 0.2s;
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+
+/* Responsive rules */
+@media (max-width: 996px) {
+	.grid{
+		margin-top: 150px;
+	}
+	.card {
+			flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+	}
+}
+
+@media (max-width: 768px) {
+	.grid{
+		margin-top: 150px;
+	}
+	.card {
+			flex: 1 1 100%; /* 1 card per row */
+	}
+}

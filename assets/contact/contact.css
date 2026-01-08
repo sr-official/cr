@@ -1,0 +1,150 @@
+/* Basic Reset and Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #FDFEE7;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.dark-mode {
+	background-color: #333;
+	color: #f5f5f5;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #007bff;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	z-index: 1000;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+	display: none;
+}
+
+.dark-mode-toggle label::before {
+	content: "Light Mode 🌞";
+	cursor: pointer;
+}
+
+body.dark-mode .dark-mode-toggle label::before {
+	content: "Dark Mode 🌙";
+	cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+	.container {
+			flex-direction: column;
+			align-items: center;
+	}
+	.dark-mode-toggle{
+		top: 10px;
+	}
+	.dark-mode-toggle label::before {
+		content: "🌞";
+	}
+	
+	body.dark-mode .dark-mode-toggle label::before {
+		content: "🌙";
+	}
+	header{
+		margin-top: 20px;
+	}
+	.section {
+			width: 90%;
+	}
+}
+
+
+
+/* Profile Box */
+.profile-box {
+	width: 90%;
+	max-width: 400px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, color 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dark-mode .profile-box {
+	background-color: #444;
+}
+
+/* Profile Image */
+.profile-image img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 20px;
+	cursor: grab;
+}
+
+/* Profile Name */
+.profile-name {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Social Links */
+.social-links {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.social-links a img {
+	width: 40px;
+	height: 40px;
+	transition: transform 0.3s;
+	/* border: 1px solid #007bff; */
+	border-radius: 50%;
+}
+
+
+.social-links a img:hover {
+	transform: scale(1.2);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+	.profile-box {
+			padding: 20px;
+	}
+
+	.profile-image img {
+			width: 120px;
+			height: 120px;
+	}
+
+	.profile-name {
+			font-size: 20px;
+	}
+
+	.social-links a img {
+			width: 35px;
+			height: 35px;
+	}
+}
