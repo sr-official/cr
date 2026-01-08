@@ -1,3 +1,7 @@
+:root {
+	--primary-font: 'Lora', serif;
+}
+
 /* Basic Reset and Global Styles */
 * {
 	margin: 0;
@@ -6,7 +10,7 @@
 }
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: var(--primary-font);
 	background-color: #FDFEE7;
 	color: #333;
 	display: flex;
@@ -76,7 +80,7 @@ body.dark-mode .dark-mode-toggle label::before {
 /* Profile Box */
 .profile-box {
 	width: 90%;
-	max-width: 400px;
+	max-width: 500px;
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 30px;
@@ -105,27 +109,72 @@ body.dark-mode .dark-mode-toggle label::before {
 /* Profile Name */
 .profile-name {
 	font-size: 24px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-/* Social Links */
+/* Social Links Container */
 .social-links {
-	display: flex;
-	justify-content: center;
-	gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(12px, 2vw, 24px);
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
-.social-links a img {
-	width: 40px;
-	height: 40px;
-	transition: transform 0.3s;
-	/* border: 1px solid #007bff; */
-	border-radius: 50%;
+/* Anchor (click area) */
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(40px, 6vw, 56px);
+    height: clamp(40px, 6vw, 56px);
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Icons */
+.social-links img {
+    width: 70%;
+    height: auto;
+    max-width: 35px;
+		/* border: 1px solid #ccc; */
+		border-radius: 50%;
+}
+
+/* Hover & Focus Effects */
+.social-links a:hover,
+.social-links a:focus-visible {
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Small devices (phones) */
+@media (max-width: 480px) {
+    .social-links {
+        gap: 14px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .social-links {
+        gap: 18px;
+    }
+
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) {
+    .social-links {
+        gap: 22px;
+    }
+
 }
 
 
 .social-links a img:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 /* Media Queries */
@@ -143,8 +192,8 @@ body.dark-mode .dark-mode-toggle label::before {
 			font-size: 20px;
 	}
 
-	.social-links a img {
+	/* .social-links a img {
 			width: 35px;
 			height: 35px;
-	}
+	} */
 }

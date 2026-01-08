@@ -1,3 +1,6 @@
+:root {
+	--primary-font: 'Lora', serif;
+}
 /* Basic reset and general styles */
 * {
 	margin: 0;
@@ -8,7 +11,7 @@
 
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: var(--primary-font);
 	background-color: #FDFEE7;
 	color: #333;
 }

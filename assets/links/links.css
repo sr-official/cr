@@ -15,11 +15,12 @@
 	--section-hover-light: #ececec;
 	--section-hover-dark: #333;
 	--transition-duration: 0.3s;
+	--primary-font: 'Lora', serif;
 }
 
 /* Body Light Mode */
 body {
-	font-family: 'Arial', sans-serif;
+	font-family: var(--primary-font);
 	background-color: var(--light-bg);
 	color: var(--light-fg);
 	transition: background-color var(--transition-duration), color var(--transition-duration);
