@@ -251,7 +251,7 @@ crManager.addCR(new CR("Sajarul Hoque", "BFT", "29", "-", "Day", "01871-247568")
 crManager.addCR(new CR("Khadimatul Alam Ratna", "BFT", "29", "-", "Day", ""));
 crManager.addCR(new CR("Tanvin Reza", "BFT", "30", "-", "Day", ""));
 crManager.addCR(new CR("Mostafa Hossain Shakil", "BFT", "30", "-", "Day", "01885-978437"));
-crManager.addCR(new CR("Samaira", "BFT", "31", "-", "Day", ""));
+crManager.addCR(new CR("Samaira ", "BFT", "31", "-", "Day", ""));
 crManager.addCR(new CR("Pritam Paul Chowdhury", "BFT", "31", "-", "Day", "01738-141972"));
 crManager.addCR(new CR("Antika Aich", "BFT", "32", "-", "Day", ""));
 crManager.addCR(new CR("Roktim Chy", "BFT", "32", "-", "Day", "01304-578169"));
