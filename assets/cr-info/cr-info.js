@@ -285,6 +285,7 @@ crManager.addCR(new CR("Sahanaj Akter Any", "BTE", "35", "", "Day", "01833-28857
 crManager.addCR(new CR("Sajnin Ali Trina", "BTE", "35", "", "Eve", "01614-446994"));
 crManager.addCR(new CR("Sujoy Chowdhury", "BTE", "36", "", "Day", "01853-129924"));
 crManager.addCR(new CR("Arpa Debi", "BTE", "36", "", "Day", "01824-453620"));
+crManager.addCR(new CR("Muntahika Binte Haq", "BTE", "36", "D", "Day", "01318-376907"));
 
 
 // cse Cr's data
