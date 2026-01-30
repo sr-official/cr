@@ -241,6 +241,7 @@ crManager.addCR(new CR("Islam Sabit", "BBA", "34", "B", "Day", "01943-458064"));
 crManager.addCR(new CR("Anika Khanam", "BBA", "34", "B", "Day", ""));
 crManager.addCR(new CR("Nusrat Jahan Elma", "BBA", "34", "C", "Day", ""));
 crManager.addCR(new CR("MD Tuhin", "BBA", "35", "A", "Day", "01814-165444"));
+crManager.addCR(new CR("Mohammad Zunaid Hossan", "BBA", "36", "C", "Day", "01726-905775"));
 
 
 
@@ -386,6 +387,7 @@ crManager.addCR(new CR("Minhaj Uddin","ENG", "33", "B", "Day", "01619-536127"));
 crManager.addCR(new CR("Bijoy Dhar","ENG", "33", "B", "Day", "01853-326550"));
 crManager.addCR(new CR("Sadiya Akter","ENG", "33", "B", "Day", ""));
 crManager.addCR(new CR("Sheikh Faiyaj Uddin","ENG", "34", "A", "Day", "01401-950102"));
+crManager.addCR(new CR("Rudaiba Adnina","ENG", "34", "A", "Day", "01305-292836"));
 
 
 // eee cr's data
