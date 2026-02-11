@@ -189,6 +189,13 @@ const resources = [
 			author: `<a href="#" target="">PCIU EEE Club</a>`,
 			url: "https://drive.google.com/file/d/1YKHaZiptUMSDgYxK7zXGmGiBL1-2klNo/view?usp=drive_link"
 	},
+	{
+			title: "Principles of Textile Testing | Butterworth Scientific",
+			department: "BTE",
+			type: "book",
+			author: `<a href="#" target="">Mashfiq Salam</a>`,
+			url: "https://drive.google.com/file/d/1cycoJAYgXmTUjyBrG_Wc9aMVerccB2gT/view?usp=drive_link"
+	},
 ];
 
 
