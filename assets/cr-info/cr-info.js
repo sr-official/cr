@@ -232,15 +232,17 @@ crManager.addCR(new CR("Jannatul Fahmida", "BBA", "33", "C", "Day", ""));
 crManager.addCR(new CR("Md Mahsenul Haque Adnan", "BBA", "33", "C", "Day", "01814-305472"));
 crManager.addCR(new CR("Md Miraj Hossen Tanveer", "BBA", "33", "C", "Day", "01632-659902"));
 crManager.addCR(new CR("Nusrat Jahan","BBA", "33", "A", "Day", ""));
-crManager.addCR(new CR("Sinthiya Albin", "BBA", "33", "E", "Day", ""));
 crManager.addCR(new CR("Abir Hassan", "BBA", "33", "D", "Day", "01622-39327"));
 crManager.addCR(new CR("Nafisa Anjum", "BBA", "33", "D", "Day", ""));
+crManager.addCR(new CR("Sinthiya Albin", "BBA", "33", "E", "Day", ""));
+crManager.addCR(new CR("Shuvro kar", "BBA", "33", "E", "Day", "01304-290556"));
 crManager.addCR(new CR("Mehzabin Ikra", "BBA", "34", "A", "Day", ""));
 crManager.addCR(new CR("Shoaib Uddin Sabith", "BBA", "34", "A", "Day", "01816-112662"));
 crManager.addCR(new CR("Islam Sabit", "BBA", "34", "B", "Day", "01943-458064"));
 crManager.addCR(new CR("Anika Khanam", "BBA", "34", "B", "Day", ""));
 crManager.addCR(new CR("Nusrat Jahan Elma", "BBA", "34", "C", "Day", ""));
 crManager.addCR(new CR("MD Tuhin", "BBA", "35", "A", "Day", "01814-165444"));
+crManager.addCR(new CR("Mohammad Mahi Jawad", "BBA", "36", "A", "Day", "01845-823272"));
 crManager.addCR(new CR("Mohammad Zunaid Hossan", "BBA", "36", "C", "Day", "01726-905775"));
 
 
@@ -285,9 +287,9 @@ crManager.addCR(new CR("Animesh Mazumder", "BTE", "34", "-", "Day", "01826-14963
 crManager.addCR(new CR("Muhammad Sultanul Arfin", "BTE", "35", "A", "Day", "01827-586390"));
 crManager.addCR(new CR("Sahanaj Akter Any", "BTE", "35", "", "Day", "01833-288575"));
 crManager.addCR(new CR("Sajnin Ali Trina", "BTE", "35", "", "Eve", "01614-446994"));
-crManager.addCR(new CR("Sujoy Chowdhury", "BTE", "36", "", "Day", "01853-129924"));
+crManager.addCR(new CR("Sujoy Chowdhury", "BTE", "36", "A", "Day", "01853-129924"));
+crManager.addCR(new CR("Muntahika Binte Haq", "BTE", "36", "A", "Day", "01318-376907"));
 crManager.addCR(new CR("Arpa Debi", "BTE", "36", "", "Day", "01824-453620"));
-crManager.addCR(new CR("Muntahika Binte Haq", "BTE", "36", "D", "Day", "01318-376907"));
 
 
 // cse Cr's data
@@ -331,6 +333,7 @@ crManager.addCR(new CR("Md Jahedul Alam", "CSE", "33", "C", "Day", "01911-841155
 crManager.addCR(new CR("Jannatul Jahan Ananna", "CSE", "33", "C", "Day", ""));
 crManager.addCR(new CR("Hosne Ara Begum", "CSE", "33", "C", "Day", ""));
 crManager.addCR(new CR("Najmul Islam", "CSE", "34", "A", "Day", "01888-729453"));
+crManager.addCR(new CR("Md. Shahria Alam", "CSE", "34", "A", "Day", "01885-074323"));
 crManager.addCR(new CR("Rimon Chowdhury", "CSE", "34", "A", "Day", "01316-532326"));
 crManager.addCR(new CR("Faria Jannat", "CSE", "34", "A", "Eve", ""));
 crManager.addCR(new CR("Mazharul Islam", "CSE", "34", "A1", "-", "01602-838790"));
@@ -357,7 +360,7 @@ crManager.addCR(new CR("Fardin Foisal","CEN", "30", "E", "-", "01639-000936"));
 crManager.addCR(new CR("Raju Chowdhury","CEN", "31", "A", "Eve", "01605-164736"));
 crManager.addCR(new CR("Ismail","CEN", "32", "A", "Day", "01867-552680"));
 crManager.addCR(new CR("Mohammed Fahad Karim","CEN", "32", "-", "Eve", "01973-403361"));
-crManager.addCR(new CR("Mohammad Habib Ullah","CEN", "32", "E-A", "Eve", "01644-604503"));
+crManager.addCR(new CR("Mohammad Habib Ullah","CEN", "33", "E-A", "Eve", "01644-604503"));
 crManager.addCR(new CR("Sadia Akter","CEN", "34", "A", "Day", "01317-638123"));
 crManager.addCR(new CR("Arnick Hossain","CEN", "34", "-", "Day", "01740-706056"));
 crManager.addCR(new CR("Md Robiul Hasan Tanvir","CEN", "34", "-", "Eve", "01854-402554"));
