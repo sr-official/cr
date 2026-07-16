@@ -27,6 +27,10 @@ document.getElementById('darkModeSwitch').addEventListener('change', toggleDarkM
 
 
 
+document.getElementById('pciu-connect').addEventListener('click', function() {
+	window.location.href = 'https://pciuconnect.netlify.app'; // Link to the new website
+});
+
 document.getElementById('cr-info').addEventListener('click', function() {
 	window.location.href = 'assets/cr-info/cr-info.html'; // Link to the new CR's information page
 });
